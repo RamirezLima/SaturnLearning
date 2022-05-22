@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ramir
  */
-@WebServlet(name = "PoliticaEPrivaciade", urlPatterns = {"/PoliticaEPrivaciade"})
+@WebServlet(name = "PoliticaEPrivaciade", urlPatterns = {"/Politica&Privaciade"})
 public class PoliticaEPrivaciade extends HttpServlet {
 
     @Override

@@ -9,7 +9,7 @@
         <a href="#" style="display: block" data-target="slide-out" class="sidenav-trigger brand-logo"><img src="images/SaturnLogo.png" alt="alt"/></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="sass.html">Ajuda <i class="material-icons right">help</i></a></li>
-            <li><a href="PoliticaPrivacidade.jsp">Privacidade <i class="material-icons right">security</i></a></li>
+            <li><a href="Politica&Privaciade">Privacidade <i class="material-icons right">security</i></a></li>
         </ul>
     </div>
 </nav>
