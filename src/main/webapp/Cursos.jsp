@@ -3,7 +3,10 @@
     Created on : 22 de mai. de 2022, 16:58:01
     Author     : ramir
 --%>
-
+<%@page import="br.com.saturnlearning.servelet.Cursos"%>
+<%
+    String urlVideo = "www.youtube.com/embed/Q8TXgCzxEnw?rel=0";
+%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -17,17 +20,18 @@
 
         <div class="container">
             <div class="row">
-                <div class="col s12 ce center-align">
-                    <h4 class="header">Bem vindo ao Saturn Learning.</h4>
+                <div class="col s12">
+                    <h2 class="header">Curso Teste Saturne Learning - 1 seção 2.</h2>
                 </div>
-                <div class="col s6 center-align">
-                    <a><i class="material-icons">library_books</i>Meus Crusos</a>
-                </div>
-                <div class="col s6 center-align">
-                    <a><i class="material-icons">add</i>Descobrir Crusos</a>
             </div>
-        </div>
-        <jsp:include page="resources/materializeBody.jsp" />        
-        <script type="text/javascript" src="js/cursos.js"></script>
+            <div class="row">
+                <div class="col s12">
+                    <div class="video-container">
+                        <iframe width="853" height="480" src="//<%=urlVideo%>" frameborder="0" allowfullscreen></iframe>
+                    </div>  
+                </div>
+            </div>
+            <jsp:include page="resources/materializeBody.jsp" />        
+            <script type="text/javascript" src="js/cursos.js"></script>
     </body>
 </html>

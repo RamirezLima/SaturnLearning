@@ -16,12 +16,12 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author ramir
  */
-@WebServlet(name = "PoliticaEPrivaciade", urlPatterns = {"/Politica&Privaciade"})
-public class PoliticaEPrivaciade extends HttpServlet {
+@WebServlet(name = "Cursos", urlPatterns = {"/Cursos"})
+public class Cursos extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher rd = req.getRequestDispatcher("/PoliticaPrivacidade.jsp");
+        RequestDispatcher rd = req.getRequestDispatcher("/Cursos.jsp");
         rd.forward(req, resp);
     }
 
