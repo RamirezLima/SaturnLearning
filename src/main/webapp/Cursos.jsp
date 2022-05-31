@@ -32,7 +32,7 @@
                             <p>Aprenda JavaScript prático e rápido e domine a linguagem mais popular do mundo.</p>
                         </div>
                         <div class="card-action">
-                            <a class="card-call" href="/SaturnLearnig/Curso">Acessar o curso.</a>
+                            <a class="card-call" href="/SaturnLearning/Curso">Acessar o curso.</a>
                         </div>
                     </div>
                 </div>

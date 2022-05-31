@@ -8,7 +8,7 @@
     <div class="nav-wrapper blue lighten-1">
         <a href="#" style="display: block" data-target="slide-out" class="sidenav-trigger brand-logo"><img src="images/SaturnLogo.png" alt="alt"/></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><form action=""/><a id="dark-toggle" class="dark-toggle" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Dark/light"><i class="material-icons left">brightness_4</i> Dark</a></form></li>
+            <li><a id="dark-toggle" class="dark-toggle" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'light' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')" title="Dark/light"><i class="material-icons left">brightness_4</i> Dark</a></li>
             <li><a href="sass.html">Ajuda <i class="material-icons right">help</i></a></li>
             <li><a href="Politica&Privaciade">Privacidade <i class="material-icons right">security</i></a></li>
         </ul>
