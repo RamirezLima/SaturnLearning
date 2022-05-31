@@ -14,7 +14,6 @@
     </head>
     <body>
         <jsp:include page="resources/menus.jsp" />
-
         <div class="container">
             <div class="row">
                 <div class="col s12 ce center-align">
@@ -26,7 +25,7 @@
         <div class="parallax-container">
             <div class="parallax"><img src="images/saturn-54999.jpg"></div>
         </div>
-        <div class="section white">
+        <div class="section">
             <div class="row container">
                 <h2 class="header">Além das Estrelas <i class="material-icons">auto_awesome</i></h2>
                 <p class="grey-text text-darken-3 lighten-3">Clique e aprenda cada vez mais... Vá além do cosmos. <i class="material-icons">rocket_launch</i></p>

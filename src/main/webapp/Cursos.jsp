@@ -14,24 +14,32 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Início Saturn</title>
         <jsp:include page="resources/materializeHead.jsp" />
+        <!--Cursos CSS-->
+        <link type="text/css" rel="stylesheet" href="css/cursos.css"  media="screen,projection"/>
     </head>
     <body>
         <jsp:include page="resources/menus.jsp" />
 
         <div class="container">
             <div class="row">
-                <div class="col s12">
-                    <h2 class="header">Curso Teste Saturne Learning - 1 seção 2.</h2>
+                <div class="col s3 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/js.png">
+                            <span class="card-title">Java Script</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Aprenda JavaScript prático e rápido e domine a linguagem mais popular do mundo.</p>
+                        </div>
+                        <div class="card-action">
+                            <a class="card-call" href="/SaturnLearnig/Curso">Acessar o curso.</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s12">
-                    <div class="video-container">
-                        <iframe width="853" height="480" src="//<%=urlVideo%>" frameborder="0" allowfullscreen></iframe>
-                    </div>  
-                </div>
-            </div>
-            <jsp:include page="resources/materializeBody.jsp" />        
-            <script type="text/javascript" src="js/cursos.js"></script>
+        </div>
+
+        <jsp:include page="resources/materializeBody.jsp" />        
+        <script type="text/javascript" src="js/cursos.js"></script>
     </body>
 </html>
